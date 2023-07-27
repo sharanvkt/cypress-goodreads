@@ -16,7 +16,7 @@ describe("Add and Remove Book from 'Want to Read' List", () => {
   it("Should add a book to 'Want to Read', mark it as 'Want to Read', and then remove it", () => {
     clickOnSignInButton();
     loginWithCredentials();
-    searchForBookByName("DOCTOR STRANGE");
+    searchForBookByName("Atomic Habits");
     clickOnWantToReadButton();
     clickOnMyBooksFromHeader();
     clickOnDeleteIconInMyBooks();
